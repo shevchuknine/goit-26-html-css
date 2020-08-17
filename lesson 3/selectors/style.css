@@ -1,0 +1,73 @@
+/*.main-content h2 {*/
+    /*color: red;*/
+/*}*/
+
+/*.main-content span {*/
+    /*color: yellow;*/
+/*}*/
+
+/*main li {*/
+    /*border: 1px solid green;*/
+    /*color: green;*/
+/*}*/
+
+/*main > span {*/
+    /*color: red;*/
+/*}*/
+
+/*main > h2 {*/
+    /*color: blue;*/
+/*}*/
+
+/*main > div > ul > li > span {*/
+    /*color: green;*/
+/*}*/
+
+/*.list-service span {*/
+    /*color: pink;*/
+/*}*/
+
+/*.list span {*/
+    /*color: brown;*/
+/*}*/
+
+/*.title {*/
+    /*font-size: 40px;*/
+/*}*/
+
+/*!* 0 0 1 1 *!*/
+/*.list-service span {*/
+    /*color: green;*/
+/*}*/
+
+/*!* 0 0 1 1 *!*/
+/*.list-service_title {*/
+    /*font-size: 20px;*/
+    /*color: blue;*/
+/*}*/
+
+/*!* 0 0 1 1 *!*/
+/*.list-service_price {*/
+    /*color: red;*/
+/*}*/
+
+/*#main h2 {*/
+    /*color: pink!important;*/
+/*}*/
+
+/*.title-warning {*/
+    /*color: red;*/
+/*}*/
+
+/*#title.title-warning {*/
+    /*color: red;*/
+/*}*/
+
+
+/*.title-warning {*/
+    /*color: red!important;*/
+/*}*/
+
+#main > h2 {
+    color: red!important;
+}
