@@ -1,0 +1,49 @@
+:root {
+    --white: #fff;
+    --active: #FF6C00;
+    --gray-1: rgba(157, 164, 189, 0.6);
+    --gray-2: #9DA4BD;
+    --gray-3: #555;
+    --black: #303030;
+}
+
+body {
+    font-family: Open Sans, serif;
+    color: var(--black);
+}
+
+h1, h2 {
+    font-family: "Raleway", sans-serif;
+}
+
+a[href^="tel"] {
+    color: var(--white);
+}
+
+a[href^="#"] {
+    color: var(--white);
+}
+
+a[href^="#form"] {
+    border: 1px solid var(--active);
+}
+
+.link:hover {
+    color: var(--active);
+}
+
+.link.active {
+    color: var(--active);
+}
+
+.quote {
+    color: var(--gray-1);
+}
+
+h1 {
+    color: var(--white);
+}
+
+.additional-title {
+    color: var(--gray-2);
+}

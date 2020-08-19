@@ -1,0 +1,30 @@
+/*:root {*/
+    /*--red-color: #ff363b;*/
+/*}*/
+
+/*div {*/
+    /*color: var(--red-color);*/
+/*}*/
+
+/*.title {*/
+    /*background-color: var(--red-color);*/
+    /*--size: 24px;*/
+/*}*/
+
+/*li {*/
+    /*font-size: var(--size);*/
+/*}*/
+
+/*.another {*/
+    /*font-size: var(--size);*/
+/*}*/
+
+/* пример currentColor vs. inherit */
+body {
+    color: red;
+}
+
+div {
+    color: inherit;
+    background-color: inherit;
+}

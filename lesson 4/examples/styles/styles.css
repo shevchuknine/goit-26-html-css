@@ -1,0 +1,30 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@400;700&display=swap');*/
+
+/*body {*/
+    /*font-family: "Montserrat";*/
+/*}*/
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Poppins", serif;
+    font-size: 60px;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        :root {
+            --primary-text-color: blue;
+            --accent-color: red;
+        }
+
+        .menu-nav {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.15;
+            letter-spacing: 0.02em;
+        }
+        .menu-nav .link {
+            color: var(--primary-text-color);
+            text-decoration: none;
+        }
+        .menu-nav .link:hover,
+        .menu-nav .link:focus {
+            color: var(--accent-color);
+        }
+        .menu-nav .link.current {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+<ul class="menu-nav white-list">
+    <li><a href="./index.html" class="link current">Студия</a></li>
+    <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+    <li><a href=" " class="link">Контакты</a></li>
+</ul>
+<ul class="menu-mail">
+    <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+    <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+</ul>
+
+</body>
+</html>
